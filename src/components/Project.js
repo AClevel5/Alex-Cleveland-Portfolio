@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "./Header";
-import NavBar from "./Navigation";
 import Footer from "./Footer";
 
 
@@ -9,7 +8,6 @@ function Project() {
         <div>
 
             <Header />
-            <NavBar />
             <Footer />
 
         </div>

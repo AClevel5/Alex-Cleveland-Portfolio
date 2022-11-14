@@ -1,0 +1,13 @@
+ .nav-tabs {
+   background: #5d5d5e;
+   display: flex;
+   align-items: left;
+   list-style: none;
+ }
+
+ .nav-item a {
+   color: white;
+   font-size: 1.3rem;
+   text-decoration: none;
+   line-height: 3;
+ }
