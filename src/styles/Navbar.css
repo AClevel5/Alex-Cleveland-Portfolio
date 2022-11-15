@@ -11,11 +11,3 @@
    font-size: 1.3rem;
    text-decoration: none;
  }
-
- .nav-tabs a:focus {
-   color: orange;
- }
-
- .nav-tabs a:hover {
-   color: gray;
- }

@@ -1,22 +1,22 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
+import NavTabs from "./Navigation";
 
 
-function Project() {
+export default function Project() {
     const [currentPage, setCurrentPage] = useState("About");
 
     const renderPage = () => {
-        if (currentPage === "About") {
+        if (currentPage === 'About') {
             return <About />;
         }
-        if (currentPage === "Contact") {
+        if (currentPage === 'Contact') {
             return <Contact />;
         }
-        if (currentPage === "Portfolio") {
+        if (currentPage === 'Portfolio') {
             return <Portfolio />;
         }
         return <Resume />;
@@ -25,10 +25,10 @@ function Project() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div currentPage={currentPage} handlePageChange={handlePageChange}>
+        <div>
+            <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
         </div>
     );
-}
+};
 
-export default Project;
