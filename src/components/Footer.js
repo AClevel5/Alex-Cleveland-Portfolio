@@ -6,7 +6,7 @@ function Footer() {
 
     return (
         <footer className="Footer">
-            <h1>Footy</h1>
+            <h3>Footy</h3>
         </footer>
     );
 }

@@ -1,15 +1,10 @@
 import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
-import NavTabs from "./Navigation"
+import About from "./pages/About"
 
 function Project() {
     return (
         <div>
-
-            <Header />
-            <NavTabs />
-            <Footer />
+            <About />
 
         </div>
     );
