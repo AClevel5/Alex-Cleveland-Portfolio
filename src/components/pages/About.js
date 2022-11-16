@@ -9,7 +9,7 @@ export default function About() {
             <div class="row">
 
                 <img class="col-md-3" src={profilePic} alt="Alex Cleveland"></img>
-                <div class="col-md-9">
+                <div class="col-md-9 textContainer">
                     <h1>About Me</h1>
                     <p>
                         I have spent my professional career in various types of sales roles consisting of rental cars, software, and most recently commercial kitchens.

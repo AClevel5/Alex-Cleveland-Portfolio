@@ -1,6 +1,7 @@
 .header {
     /* background: rgb(80, 79, 79); */
     height: 200px;
+    width: 100% !important;
     background-image: url("../images/Mountains.jpg");
 }
 
