@@ -1,0 +1,10 @@
+.about {
+    margin-top: 15px;
+}
+
+img {
+    border-radius: 25px;
+    box-shadow: 4px 4px 4px 4px #888;
+    padding: 0 !important;
+
+}

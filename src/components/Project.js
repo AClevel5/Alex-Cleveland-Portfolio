@@ -4,6 +4,7 @@ import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import NavTabs from "./Navigation";
+import "../styles/Navbar.css";
 
 
 export default function Project() {
