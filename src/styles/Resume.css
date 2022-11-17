@@ -1,0 +1,8 @@
+.resume {
+    text-decoration: none;
+    color: orange;
+}
+
+.resume a:hover {
+    color: black;
+}
