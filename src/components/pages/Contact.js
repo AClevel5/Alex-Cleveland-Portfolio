@@ -11,7 +11,7 @@ export default function ContactForm() {
             email: email.value,
             message: message.value,
         }
-        console.log(contactForm)
+        console.log(contactForm);
     }
     return (
         <div className="container mt-5">
