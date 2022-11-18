@@ -1,12 +1,45 @@
-import React from 'react';
+import { useState } from 'react';
 
-export default function Contact() {
+export default function ContactForm() {
+    const [formStatus, setFormStatus] = useState('Send')
+    const onSubmit = (e) => {
+        e.preventDefault()
+        setFormStatus('Submitted')
+        const { name, email, message } = e.target.elements
+        let contactForm = {
+            name: name.value,
+            email: email.value,
+            message: message.value,
+        }
+        console.log(contactForm)
+    }
     return (
-        <div>
-            <h1>Contact</h1>
-            <p>
-
-            </p>
+        <div className="container mt-5">
+            <h2 className="mb-3">Contact</h2>
+            <form onSubmit={onSubmit}>
+                <div className="mb-3">
+                    <label className="form-label" htmlFor="name">
+                        Name
+                    </label>
+                    <input className="form-control" type="text" id="name" required />
+                </div>
+                <div className="mb-3">
+                    <label className="form-label" htmlFor="email">
+                        Email
+                    </label>
+                    <input className="form-control" type="email" id="email" required />
+                </div>
+                <div className="mb-3">
+                    <label className="form-label" htmlFor="message">
+                        Message
+                    </label>
+                    <textarea className="form-control" id="message" required />
+                </div>
+                <button className="btn btn-primary" type="submit">
+                    {formStatus}
+                </button>
+            </form>
         </div>
-    );
-}
+    )
+};
+
