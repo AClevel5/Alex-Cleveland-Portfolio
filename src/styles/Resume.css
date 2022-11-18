@@ -6,3 +6,7 @@
 .resume a:hover {
     color: black;
 }
+
+.head {
+    padding-left: 5%;
+}
