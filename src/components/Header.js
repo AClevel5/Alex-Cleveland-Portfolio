@@ -4,7 +4,7 @@ import '../styles/Header.css';
 
 
 
-function Header() {
+export default function Header() {
 
     return (
         <header className="header">
@@ -13,4 +13,3 @@ function Header() {
     );
 }
 
-export default Header;

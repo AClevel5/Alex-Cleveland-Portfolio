@@ -2,8 +2,8 @@ import powderBound from "../images/PowderBound.png";
 import hiKamp from "../images/HiKamp.png";
 import textEditor from "../images/TextEditor.png";
 import noteTaker from "../images/NoteTaker.png";
-import teamProfileGenerator from "../images/teamProfileGenerator.png";
-import techBlog from "../images/techBlog.png";
+import teamProfileGenerator from "../images/TeamProfileGenerator.png";
+import techBlog from "../images/TechBlog.png";
 
 export const projects = [
 
