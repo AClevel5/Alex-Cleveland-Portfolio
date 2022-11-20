@@ -8,7 +8,7 @@ export default function About() {
 
             <div class="row">
 
-                <img class="col-md-3" src={profilePic} alt="Alex Cleveland"></img>
+                <img class="col-md-3 aboutImg" src={profilePic} alt="Alex Cleveland"></img>
                 <div class="col-md-9 textContainer">
                     <h1>About Me</h1>
                     <p>
