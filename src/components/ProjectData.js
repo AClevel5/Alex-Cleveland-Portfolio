@@ -1,6 +1,9 @@
-
-
-
+import powderBound from "../images/PowderBound.png";
+import hiKamp from "../images/HiKamp.png";
+import textEditor from "../images/TextEditor.png";
+import noteTaker from "../images/NoteTaker.png";
+import teamProfileGenerator from "../images/teamProfileGenerator.png";
+import techBlog from "../images/techBlog.png";
 
 export const projects = [
 
@@ -8,7 +11,7 @@ export const projects = [
         name: "Powder Bound",
         url: "https://aclevel5.github.io/ski-planner/",
         gitHubUrl: "https://github.com/AClevel5/ski-planner",
-        image: "",
+        image: powderBound,
 
 
     },
@@ -16,7 +19,7 @@ export const projects = [
         name: "HiKamp",
         url: "https://hikamp.herokuapp.com/",
         gitHubUrl: "https://github.com/AClevel5/hiKamp",
-        image: "",
+        image: hiKamp,
 
 
     },
@@ -24,7 +27,7 @@ export const projects = [
         name: "Text Editor",
         url: "https://text-editor-alexc.herokuapp.com/",
         gitHubUrl: "https://github.com/AClevel5/Text-Editor",
-        image: "",
+        image: textEditor,
 
 
     },
@@ -32,7 +35,7 @@ export const projects = [
         name: "Note Taker",
         url: "https://arc5-note-taker.herokuapp.com/",
         gitHubUrl: "https://github.com/AClevel5/Note-Taker",
-        image: "",
+        image: noteTaker,
 
 
     },
@@ -40,15 +43,15 @@ export const projects = [
         name: "Team Profile Generator",
         url: "https://github.com/AClevel5/Team-Profile-Generator",
         gitHubUrl: "https://github.com/AClevel5/Team-Profile-Generator",
-        image: "",
+        image: teamProfileGenerator,
 
 
     },
     {
-        name: "Weather App",
+        name: "Tech Blog",
         url: "https://alex-tech-blog7.herokuapp.com/",
         gitHubUrl: "https://github.com/AClevel5/Tech-Blog",
-        image: "",
+        image: techBlog,
 
 
     }
