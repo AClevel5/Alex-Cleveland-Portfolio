@@ -3,7 +3,53 @@
     box-shadow: 4px 4px 4px 4px #888;
 }
 
+
 .card-image {
-    margin-top: 3px;
     border-radius: 5px;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+
+.overlay {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.custom-card:hover .card-image {
+    opacity: 0.2;
+}
+
+.custom-card:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    white-space: nowrap;
+}
+
+.title {
+    text-decoration: none;
+    color: black;
+}
+
+.title:hover {
+    color: orange;
+}
+
+.gitHub {
+    color: #888;
+}
+
+.gitHub:hover {
+    color: orange;
 }

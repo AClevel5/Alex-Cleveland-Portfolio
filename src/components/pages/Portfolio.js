@@ -2,6 +2,7 @@ import React from 'react';
 import { projects } from "../ProjectData";
 import Card from "../Card";
 
+
 export default function Portfolio() {
     let cards = projects.map((card) =>
         <Card

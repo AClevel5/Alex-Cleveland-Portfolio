@@ -9,12 +9,11 @@ export default function Card(props) {
 
 
     return (
-        <div class="card col-lg-3 custom-card ">
+        <div class="card col-lg-3 custom-card">
             <img title={name} className="card-image" alt={name} src={image} />
-            <div className="card-body">
-                <h5 className="card-title">{name}</h5>
-                <a href={url} className="">{name}</a>
-                <a href={gitHubUrl} target="_blank" rel="noreferrer" className="icon"><BsGithub color="gray" /></a>
+            <div className="overlay">
+                <h4 className="text"><a href={url} className="title">{name}</a>&nbsp;<a href={gitHubUrl} target="_blank" rel="noreferrer" className="gitHub"><BsGithub /></a></h4>
+
             </div>
         </div>
 
