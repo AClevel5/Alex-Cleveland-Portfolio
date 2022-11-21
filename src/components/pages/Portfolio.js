@@ -18,7 +18,7 @@ export default function Portfolio() {
         <div>
             <h1>Portfolio</h1>
             <main className='container-fluid'>
-                <div className='row justify-content-center'>
+                <div className='row justify-content-center g-0'>
                     {cards}
                 </div>
             </main>
