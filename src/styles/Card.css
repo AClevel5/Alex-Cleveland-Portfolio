@@ -1,0 +1,9 @@
+.custom-card {
+    margin: 15px;
+    box-shadow: 4px 4px 4px 4px #888;
+}
+
+.card-image {
+    margin-top: 3px;
+    border-radius: 5px;
+}

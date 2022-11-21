@@ -16,9 +16,11 @@ export default function Portfolio() {
     return (
         <div>
             <h1>Portfolio</h1>
-            <p>
-                {cards}
-            </p>
+            <main className='container-fluid'>
+                <div className='row justify-content-center'>
+                    {cards}
+                </div>
+            </main>
         </div>
     );
 }
