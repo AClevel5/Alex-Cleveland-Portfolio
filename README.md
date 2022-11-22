@@ -12,9 +12,18 @@
 
 A Portfolio to showcase the projects I have done at Denver University Bootcamp and more.
 
+<img src="./src/images/Screenshot1.png" width="700" height="400">
+<img src="./src/images/Screenshot2.png" width="700" height="400">
+<img src="./src/images/Screenshot3.png" width="700" height="400">
+<img src="./src/images/Screenshot4.png" width="700" height="400">
+
+
+
+
 
 ## Deployed
 
+https://aclevel5.github.io/Alex-Cleveland-Portfolio/
 
 ## Technologies
 - JavaScript
