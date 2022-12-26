@@ -2,8 +2,9 @@ import powderBound from "../images/PowderBound.png";
 import hiKamp from "../images/HiKamp.png";
 import textEditor from "../images/TextEditor.png";
 import noteTaker from "../images/NoteTaker.png";
-import teamProfileGenerator from "../images/TeamProfileGenerator.png";
+// import teamProfileGenerator from "../images/TeamProfileGenerator.png";
 import techBlog from "../images/TechBlog.png";
+import pristineClean from "../images/PristineClean.png";
 
 export const projects = [
 
@@ -12,6 +13,14 @@ export const projects = [
         url: "https://aclevel5.github.io/ski-planner/",
         gitHubUrl: "https://github.com/AClevel5/ski-planner",
         image: powderBound,
+
+
+    },
+    {
+        name: "Pristine Clean",
+        url: "https://pristine-clean.herokuapp.com/",
+        gitHubUrl: "https://github.com/AClevel5/pristine-clean-v2",
+        image: pristineClean,
 
 
     },
@@ -39,14 +48,14 @@ export const projects = [
 
 
     },
-    {
-        name: "Team Profile Generator",
-        url: "https://github.com/AClevel5/Team-Profile-Generator",
-        gitHubUrl: "https://github.com/AClevel5/Team-Profile-Generator",
-        image: teamProfileGenerator,
+    // {
+    //     name: "Team Profile Generator",
+    //     url: "https://github.com/AClevel5/Team-Profile-Generator",
+    //     gitHubUrl: "https://github.com/AClevel5/Team-Profile-Generator",
+    //     image: teamProfileGenerator,
 
 
-    },
+    // },
     {
         name: "Tech Blog",
         url: "https://alex-tech-blog7.herokuapp.com/",

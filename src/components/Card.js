@@ -12,7 +12,7 @@ export default function Card(props) {
         <div class="card col-lg-3 custom-card">
             <img title={name} className="card-image" alt={name} src={image} />
             <div className="overlay">
-                <h4 className="text"><a href={url} className="title">{name}</a>&nbsp;<a href={gitHubUrl} target="_blank" rel="noreferrer" className="gitHub"><BsGithub /></a></h4>
+                <h4 className="text"><a href={url} target="_blank" rel="noreferrer" className="title">{name}</a>&nbsp;<a href={gitHubUrl} target="_blank" rel="noreferrer" className="gitHub"><BsGithub /></a></h4>
 
             </div>
         </div>
